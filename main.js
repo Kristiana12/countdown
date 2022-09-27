@@ -3,12 +3,12 @@ const labelHours = document.querySelector('.hours');
 const labelMinutes = document.querySelector('.minutes');
 const labelSeconds = document.querySelector('.seconds');
 
-//Calc how many days left
+//Calc how many milliseconds left
 const calcTimeLeft = () => {
   const futureDate = new Date('January 1, 2023 00:00:00').getTime();
   const today = new Date().getTime();
 
-  //Get how many milliseconds left
+  //Milliseconds Left
   const millisecondsLeft = futureDate - today;
 
   //How time works
