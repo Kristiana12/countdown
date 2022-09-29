@@ -57,6 +57,7 @@ h3 {
 
 main {
   background: url('images/space-920.jpg') left/cover no-repeat;
+  margin-bottom: 2rem;
 }
 
 .main-heading {
