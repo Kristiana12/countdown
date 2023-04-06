@@ -5,7 +5,7 @@ const labelSeconds = document.querySelector('.seconds');
 
 //Calc how many milliseconds left
 const calcTimeLeft = () => {
-  const futureDate = new Date('January 1, 2023 00:00:00').getTime();
+  const futureDate = new Date('January 1, 2024 00:00:00').getTime();
   const today = new Date().getTime();
 
   //Milliseconds Left
